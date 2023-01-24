@@ -1,0 +1,43 @@
+{
+    "group" : [
+        {
+            "name": "Caio",
+            "age": 25,
+            "profession": "Developer iOS",
+            "salary": "1.000,00",
+            "imageUser": "person.circle",
+            "isEnableHeart": true,
+            "identifier": 0
+            
+        },
+        {
+            "name": "Diego",
+            "age": 29,
+            "profession": "Developer iOS",
+            "salary": "1.000,00",
+            "imageUser": "person.circle",
+            "isEnableHeart": false,
+            "identifier": 0
+        
+        },
+        {
+            "name": "Scheila",
+            "age": 25,
+            "profession": "Developer iOS",
+            "salary": "1.000,00",
+            "imageUser": "person.circle",
+            "isEnableHeart": false,
+            "identifier": 0
+            
+        },
+        {
+            "name": "Meg",
+            "age": 27,
+            "profession": "Develope iOS",
+            "salary": "1.000,00",
+            "imageUser": "person.circle",
+            "isEnableHeart": false,
+            "identifier": 0
+        }
+    ]
+}
