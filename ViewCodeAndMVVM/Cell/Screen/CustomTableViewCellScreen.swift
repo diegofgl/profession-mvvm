@@ -85,18 +85,18 @@ class CustomTableViewCellScreen: UIView {
             self.ageLabel.trailingAnchor.constraint(equalTo: self.nameLabel.trailingAnchor),
             self.ageLabel.leadingAnchor.constraint(equalTo: self.nameLabel.leadingAnchor),
             
-            self.professionLabel.topAnchor.constraint(equalTo: self.salaryLabel.bottomAnchor,constant: 10),
+            self.professionLabel.topAnchor.constraint(equalTo: self.ageLabel.bottomAnchor,constant: 10),
             self.professionLabel.trailingAnchor.constraint(equalTo: self.nameLabel.trailingAnchor),
             self.professionLabel.leadingAnchor.constraint(equalTo: self.nameLabel.leadingAnchor),
             
-            self.salaryLabel.topAnchor.constraint(equalTo: self.ageLabel.bottomAnchor,constant: 10),
+            self.salaryLabel.topAnchor.constraint(equalTo: self.professionLabel.bottomAnchor,constant: 10),
             self.salaryLabel.trailingAnchor.constraint(equalTo: self.nameLabel.trailingAnchor),
-            self.ageLabel.leadingAnchor.constraint(equalTo: self.nameLabel.leadingAnchor),
+            self.salaryLabel.leadingAnchor.constraint(equalTo: self.nameLabel.leadingAnchor),
         
             self.heartButton.topAnchor.constraint(equalTo: self.topAnchor, constant: 18),
-            self.heartButton.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 12),
-            self.userImageView.heightAnchor.constraint(equalToConstant: 22),
-            self.userImageView.widthAnchor.constraint(equalToConstant: 22),
+            self.heartButton.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -12),
+            self.heartButton.heightAnchor.constraint(equalToConstant: 22),
+            self.heartButton.widthAnchor.constraint(equalToConstant: 22),
             
         ])
     

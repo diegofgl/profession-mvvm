@@ -62,6 +62,7 @@ extension HomeViewController:CustomTableViewCellDelegate{
 extension HomeViewController:ViewModelDelegate{
     func succesRequest() {
         self.screen?.setupTableViewProtols(delegate: self, dataSource: self)
+        self.screen?.reloadTableView()
 
     }
     

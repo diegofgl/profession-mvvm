@@ -8,10 +8,10 @@
 import UIKit
 
 enum DescriptionCustomCell:String{
-    case name = "nome: "
-    case salary = "salary: "
-    case age = "idade: "
-    case profession = "Profession: "
+    case name = "Nome: "
+    case salary = "Salario: "
+    case age = "Idade: "
+    case profession = "Profissão: "
 
 
 }
