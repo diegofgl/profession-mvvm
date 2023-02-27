@@ -31,7 +31,13 @@ class HomeScreenView: UIView {
     public func setupTableViewProtols(delegate:UITableViewDelegate, dataSource:UITableViewDataSource){
         self.tableview.delegate = delegate
         self.tableview.dataSource = dataSource
+        self.tableview.reloadData()
     }
+    
+    public func reloadTableView(){
+        self.tableview.reloadData()
+    }
+    
     
     private func configConstraints(){
         NSLayoutConstraint.activate([

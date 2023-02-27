@@ -23,8 +23,19 @@ class ViewModel{
         self.delegate = delegate
     }
 
-    public func fastchAllRequest(){
+    public func fastchAllRequestMock(){
         service.getUserFromJson(fromFileNamed: "user") { success, error in
+            if let _success = success{
+                self.listUser = _success.group
+                self.delegate?.succesRequest()
+            }else{
+                self.delegate?.ErrorRequest()
+            }
+        }
+    }
+    
+    public func fastchAllRequest(){
+        service.getUser() { success, error in
             if let _success = success{
                 self.listUser = _success.group
                 self.delegate?.succesRequest()
